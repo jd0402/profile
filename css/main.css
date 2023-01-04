@@ -1598,7 +1598,7 @@ input, select, textarea {
 			padding: 3em 0 3em 0;
 			overflow: hidden;
 		}
-		.onetext{font-size: 20px;}
+		.onetext{font-size: 18px; line-height: 32px;}
 
 			.main.style2 > .content {
 				-moz-transition: -moz-transform 1s ease;
@@ -2004,4 +2004,6 @@ input, select, textarea {
 			display: block;
 			color: #a7d5ed;
 			padding: 1em 0 0;
+			font-weight: bold;
+			font-size: 26px;
 		}
