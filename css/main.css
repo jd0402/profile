@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900"); */
 @import url("fontawesome-all.min.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 /*
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
@@ -1567,6 +1567,7 @@ input, select, textarea {
 			.main.style1 h2 {
 				font-size: 4.25em;
 				line-height: 1em;
+				font-weight: 400;
 			}
 
 			.main.style1 > .content {
@@ -1857,10 +1858,11 @@ input, select, textarea {
 	
 	}	
 
-	#resume> .content> div{
+	.education, .experience{
 		float: left;
 		width: 48%;
 		text-align: left;
+		margin-bottom: 3%;
 	}
 	
 	#resume .content .education{
@@ -1880,11 +1882,17 @@ input, select, textarea {
 	}
 
 	#resume .content span{
-		font-size: 18px;
+		font-size: 20px;
 		color: #a7d5ed;
 		font-weight: bold;
 	}
 	#resume .content p{font-size: 20px;}
+	
+	.license{clear: both; width: 100%; text-align: center;}
+	.license>div{width: 48%; float: left;}
+	.license2{margin-left: 4%;}
+	
+	
 
 	@media screen and (max-width: 699px) {
 
